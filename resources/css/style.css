@@ -1,3 +1,7 @@
+/*--------------
+Basic Settup
+----------------*/
+
 *{
     padding: 0;
     margin:0;
@@ -13,7 +17,119 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
+/*--------------
+Reusable
+----------------*/
+
+
 .row{
     max-width:1140px;
     margin:0 auto;
 }
+
+
+h1{
+    margin:0;
+    color:#fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 20px
+    
+}
+
+
+/*--------------
+Header
+----------------*/
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(img/showcase.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-text-box{
+    position: absolute;
+    width:1140px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float:left;
+    margin-top: 20px;
+}
+
+.main-nav{
+    float:right;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding-bottom: 8px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    font-size: 90%;
+    transition: 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+    
+}
+
+
+
+
+/*--------------
+Buttons
+----------------*/
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #cf6d17;
+}
+
+
+.btn-full:hover,
+.btn-full:active{
+    border: 1px solid #cf6d17;
+}
+
+
