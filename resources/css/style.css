@@ -119,6 +119,7 @@ header{
     height: 100vh;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero-text-box{
@@ -165,11 +166,26 @@ header{
 }
 
 /*---------------
+Bio Section
+-----------------*/
+.section-bio{
+    background-color: #f4f4f4;
+}
+
+
+/*---------------
 Programming Skills
 -----------------*/
 .section-skill{
-    background-color: #f4f4f4;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/skills.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    
 }
+
+
 
 
 
@@ -204,6 +220,7 @@ Buttons
 .btn-full:hover,
 .btn-full:active{
     border: 1px solid #cf6d17;
+    
 }
 
 
