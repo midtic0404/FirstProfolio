@@ -28,18 +28,85 @@ Reusable
     margin:0 auto;
 }
 
+section{
+    padding: 80px 0;
+}
 
-h1{
-    margin:0;
-    color:#fff;
-    font-size: 240%;
+h1, h2, h3{
+    
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
-    word-spacing: 3px;
+}
+
+h1{
+    font-size: 240%;
     margin-top: 0;
-    margin-bottom: 20px
-    
+    margin-bottom: 20px;
+    color:#fff;
+    word-spacing: 3px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content:" ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+.box{
+    padding: 1%;
+}
+
+
+
+/*--------------
+Paragraphs
+----------------*/
+.long-bio{
+    line-height: 145%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+
+
+
+/*--------------
+Icon
+----------------*/
+.icon-big{
+    font-size: 300%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+.fa-database{
+    margin-top: 10px;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 27px;
 }
 
 
@@ -95,6 +162,13 @@ header{
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
     
+}
+
+/*---------------
+Programming Skills
+-----------------*/
+.section-skill{
+    background-color: #f4f4f4;
 }
 
 
