@@ -174,7 +174,7 @@ Bio Section
 
 
 /*---------------
-Programming Skills
+Programming Skills Section
 -----------------*/
 .section-skill{
     background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/skills.jpg);
@@ -185,7 +185,17 @@ Programming Skills
     
 }
 
+/*---------------
+Contact Section
+-----------------*/
+.contact-info{
+    width: 20%;
+    margin: 0 auto;
+}
 
+.contact-info h3:nth-of-type(3){
+    text-transform: none;
+}
 
 
 
