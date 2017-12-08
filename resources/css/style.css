@@ -110,6 +110,39 @@ Icon
     margin-bottom: 27px;
 }
 
+.icon-small{
+    color: #e67e22;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 120%;
+    margin-right: 10px;
+    
+/* secret  to align text and icons */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    
+}
+
+/*------------------------------------*/
+/*Links*/
+/*------------------------------------*/
+a:link,
+a:active{
+    color:#e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: 0.2s;
+}
+
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 
 /*--------------
 Header
@@ -229,6 +262,16 @@ Contact Section
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /*--------------
 Buttons
 ----------------*/
@@ -263,3 +306,64 @@ Buttons
 }
 
 
+/*--------------
+Footer
+----------------*/
+footer{
+    background-color: #333;
+    padding: 40px;
+    font-size: 80%;
+}
+
+.social-links{
+    list-style: none;
+    
+}
+
+.social-links li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.social-links li:last-child{
+    margin:0;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 160%;
+    text-decoration: none;
+    border: 0;
+    color: #888; 
+}
+
+
+.social-links li a:hover,
+.social-links li a:active{
+    color: #ddd;
+}
+
+.ion-social-twitter,
+.ion-social-instagram,
+.ion-social-linkedin{
+    transition: color 0.2s;
+}
+
+.ion-social-twitter:hover{
+    color: #00B6F1;
+}
+
+.ion-social-instagram:hover{
+    color: #C32AA3;
+}
+
+.ion-social-linkedin:hover{
+    color: #007BB6;
+}
+
+footer p{
+    margin-top: 20px;
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+}
