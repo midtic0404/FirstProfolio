@@ -4,16 +4,17 @@
         width:100%;
         padding: 0 2%;
     }
-    
+
     .row{
         padding: 0 2%;
     }
-    
+
     .contact-info{
         font-size: 90%;
         width: 50%;
         margin-top: 70px;
     }
+
 }
 
 
@@ -22,20 +23,22 @@
     body{
         font-size: 18px;
     }
-    
+
     section{
         padding: 60px 0;
     }
-    
+
     .long-bio{
         width: 90%;
         margin-left: 5%;
     }
-    
+
     .contact-info{
         width: 70%;
         margin-top: 85px;
     }
+
+
 }
 
 
@@ -44,38 +47,79 @@
     body{
         font-size: 16px;
     }
-    
+
     section{
-        padding: 30px 0;
+        padding: 40px 0;
     }
-    
+
     .row,
     .hero-text-box{
         padding: 0 4%;
     }
-    
+
     .col{
         width: 100%;
         margin: 0 0 4% 0;
     }
-    
+
     .main-nav{
         display: none;
     }
-    
+
+    .mobile-nav-icon{
+      display: inline-block;
+    }
+
+    .main-nav{
+      float: left;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+
+    .main-nav li{
+      display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+      display: block;
+      border: 0;
+      padding: 10px 0;
+      font-size: 100%;
+    }
+
+    .sticky .main-nav{
+        margin-top: 10px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        padding: 10px 0;
+    }
+
+    .sticky .mobile-nav-icon{
+      margin-top: 10px;
+    }
+
+    .sticky .mobile-nav-icon i{
+      color: #555;
+    }
+
+
+
     h1{
         font-size: 200%;
     }
-    
+
     h2{
         font-size: 160%;
     }
-    
+
     .long-bio{
         width: 100%;
         margin-left: 0%;
     }
-    
+
     .map-box{
         width:100%;
         height:auto;
@@ -93,17 +137,17 @@
         position: relative;
         width: 100%;
         height:auto;
-        
+
     }
-    
+
     .contact-info{
         width: 33%;
         margin: 0 auto;
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    
-    
+
+
 }
 
 /*small phones 0 to 480*/
@@ -111,7 +155,7 @@
     section{
         padding: 25px 0;
     }
-    
+
     .contact-info{
         width: 60%;
         font-size: 80%;

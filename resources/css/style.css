@@ -8,7 +8,7 @@ Basic Settup
     box-sizing: border-box;
 }
 
-html {
+html{
     background-color: #fff;
     color: #555;
     font-family: 'Lato', sans-serif;
@@ -34,7 +34,7 @@ section{
 }
 
 h1, h2, h3{
-    
+
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -193,7 +193,20 @@ header{
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
-    
+
+}
+
+/*  Mobile nav */
+.mobile-nav-icon{
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i{
+  font-size: 200%;
+  color: #fff;
 }
 
 
@@ -242,7 +255,7 @@ Programming Skills Section
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
-    
+
 }
 
 /*---------------
@@ -319,7 +332,7 @@ Buttons
 .btn-full:hover,
 .btn-full:active{
     border: 1px solid #cf6d17;
-    
+
 }
 
 
@@ -334,7 +347,7 @@ footer{
 
 .social-links{
     list-style: none;
-    
+
 }
 
 .social-links li{
@@ -351,7 +364,7 @@ footer{
     font-size: 160%;
     text-decoration: none;
     border: 0;
-    color: #888; 
+    color: #888;
 }
 
 
